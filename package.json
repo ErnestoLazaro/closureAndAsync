@@ -4,12 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "callback": "node Async/callbk.js",
+    "callback:challenge": "node Async/challenge.js",
+    "promise": "node Async/promise/index.js",
+    "promise:challenge": "node Async/promise/challenge.js",
+    "async": "node Async/crono/index.js",
+    "async:challenge": "node Async/crono/challenge.js"
+
+
   },
   "repository": {
     "type": "git",
     "url": "fdejavascript"
   },
   "author": "ErnestoLazaro",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
